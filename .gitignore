@@ -28,5 +28,6 @@
 
 /.ash_history
 /.irb_history
+/.mysql_history
 /.local
 /.local/*
