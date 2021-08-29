@@ -4,7 +4,7 @@ module UserAuth
 
   mattr_accessor :token_audience
   self.token_audience = -> {
-    ENV["API_DOMAIN"]
+    ENV["APP_URL"]
   }
 
   mattr_accessor :token_signature_algorithm
